@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px;
+
+}
+figure img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50px;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.card p{
+    padding: 5px;
+}
+figcaption{
+    text-transform: uppercase;
+    padding: 5px;
+}
+.fa-solid{
+    color: rgb(219, 88, 41);
+}
+section{
+     width: 900px;
+    height: 250px;
+    border: none;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.side{
+    margin-left: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.side h2{
+    padding: 5px;
+}
+.side p{
+    padding: 5px;
+}
+
+label{
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    text-transform: capitalize;
+}
+input,textarea{
+        width: 400px;
+        height:auto;
+        border: none;
+        
+}
+button{
+    width: 450px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(35, 37, 187, 0.781);
+    color: whitesmoke;
+}
+.side,address{
+    display: inline-block;
+}
+address{
+    padding: 5px;
+    position: absolute;
+    top: 55%;
+    left: 64%;
+    margin-left: 10px;
+    margin-top: 10px;
+     border: none;
+     border-radius: 10px 0 0 10px;
+     background-color: #333;
+     color: whitesmoke;
+}
+.address{
+    padding: 10px;
+    margin: 5px
+}
+.fa-solid{
+    margin: 5px;
+}
+.fa-brands{
+    margin: 5px;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.iclass{
+    margin: 10px;
+}
+.iclass .fa-brands{
+    margin: 10px;
+    font-size: large;
+}
+.iclass .fa-facebook{
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(53, 53, 129);
+    color: white;
+}
+.iclass .fa-twitter{
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(91, 91, 235);
+    color: #fff;
+}
+.iclass .fa-instagram{
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+    background-image: linear-gradient(blue,red,yellow);
+}
+nav ul{
+    list-style-type: none;
+    margin: 5px;
+}
+li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: grey;
+}
+.second{
+    margin-top: 20px;
+}
+.last input{
+    background-color: #333;
+    
+}
+.last label{
+    border: none;
+}
+.last p{
+    color: grey;
+}
+.foot{
+    text-align: center;
+    background-color: #333;
+    color: grey;
+    padding: 5px;
+}
+span{
+    color: red;
+}
